@@ -1,0 +1,3 @@
+name,number,filePath
+hive-site.xml,1,src/main/resources/hive-site.xml
+people.csv,1,src/main/resources/people.csv
