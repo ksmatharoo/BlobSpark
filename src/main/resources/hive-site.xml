@@ -22,12 +22,12 @@
     <property>
         <!--  this should eventually be deprecated since the metastore should supply this -->
         <name>hive.metastore.warehouse.dir</name>
-        <value>/home/ksingh/github-ksmatharoo/TestHiveClient/spark-warehouse</value>
+        <value>c:/ksingh/HiveClient/spark-warehouse</value>
         <description></description>
 
         <property>
             <name>javax.jdo.option.ConnectionURL</name>
-            <value>jdbc:derby:memory:home/ksingh/github-ksmatharoo/TestHiveClient/metastore_db;create=true</value>
+            <value>jdbc:derby:;databaseName=c:/ksingh/HiveClient/metastore_db;create=true</value>
         </property>
 
         <property>

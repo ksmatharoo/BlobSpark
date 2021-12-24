@@ -15,7 +15,7 @@ public class BlobReader {
 
     public static void main(String[] args) throws Exception {
 
-        boolean writeToFile = true;
+        boolean writeToFile = false;
         boolean isHiveTableTest = !(writeToFile);
 
         S3MockUtils.setup();
